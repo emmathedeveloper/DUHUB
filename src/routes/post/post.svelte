@@ -6,5 +6,6 @@
         <input name="pdf_file_input" type="file"/>
         <input type="text" placeholder="title" />
         <input type="text" placeholder="description" />
+        <button>Upload</button>
     </form>
 </section>
