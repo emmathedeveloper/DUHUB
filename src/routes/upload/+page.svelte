@@ -12,8 +12,8 @@
     <form on:submit|preventDefault={handleSubmit}>
         <label for="pdf_file_input">Upload PDF or DOCX file</label>
         <input name="pdf_file_input" type="file"/>
-        <input type="text" placeholder="title" />
-        <input type="text" placeholder="description" />
+        <input name="title" type="text" placeholder="title" />
+        <input name="description" type="text" placeholder="description" />
         <button>Upload</button>
     </form>
 </section>
